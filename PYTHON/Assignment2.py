@@ -9,10 +9,10 @@ def total_power_usage(devices):
     return total
 
 devices = [
-    WashingMachine("LG Washer", 1500),
-    AirConditioner("Daikin AC", 2500),
-    Microwave("Panasonic Microwave", 1200),
-    SmartTV("Samsung TV", 500),
+    WashingMachine("LG Washer", 200),
+    AirConditioner("Daikin AC", 300),
+    Microwave("Panasonic Microwave", 400),
+    SmartTV("Samsung TV", 5500),
 ]
 
 for device in devices:
@@ -21,4 +21,5 @@ for device in devices:
     print()
 
 print("Total Power Usage:", total_power_usage(devices), "Watts")
+
 print("Appliances currently ON:", Appliance.appliances_on)
